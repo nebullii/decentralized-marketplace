@@ -2,7 +2,7 @@
 
 The Decentralized AI-driven Marketplace is a next-generation trading platform for digital assets such as NFTs, IoT-enabled smart devices, and digital documents. It integrates AI for personalized recommendations, IoT for real-time asset verification, blockchain for ownership tracking, cloud infrastructure for scalability, SSO authentication for user convenience, and caching for performance optimization.
 
-## 🚀 Features (Planned)
+## Features (Planned)
 
 - Blockchain-based asset ownership and transactions
 - AI-powered recommendations and asset categorization
@@ -11,7 +11,7 @@ The Decentralized AI-driven Marketplace is a next-generation trading platform fo
 - Cloud-based scalable infrastructure
 - Performance optimization through caching
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Frontend
 - React.js
@@ -23,7 +23,7 @@ The Decentralized AI-driven Marketplace is a next-generation trading platform fo
 - Node.js/Express
 - MongoDB
 - Redis (caching)
-- AWS/Azure (cloud infrastructure)
+- AWS (cloud infrastructure)
 
 ### Blockchain
 - Ethereum/Polygon
@@ -39,17 +39,8 @@ The Decentralized AI-driven Marketplace is a next-generation trading platform fo
 - MQTT Protocol
 - WebSocket
 
-## 📁 Project Structure
-project-root/
-├── client/ # Frontend application
-├── server/ # Backend API
-├── blockchain/ # Smart contracts and blockchain logic
-├── ai-service/ # AI/ML services
-├── iot-service/ # IoT integration service
-└── docs/ # Documentation
-
 ### Prerequisites
-- Node.js (v14+)
+- Node.js (v14+) 
 - Python (v3.8+)
 - MongoDB
 - Metamask wallet
@@ -58,33 +49,28 @@ project-root/
 ### Installation
 
 ## Create the basic project structure with the main directories:
-cd decentralized-marketplace
+mkdir decentralized-marketplace && cd decentralized-marketplace
 mkdir client server blockchain ai-service iot-service docs
 
-2. Install dependencies for each service
-Frontend
+### Install dependencies for each service
+#### Frontend
 cd client
 npm install
-Backend
+#### Backend
 cd ../server
 npm install
-Smart Contracts
+#### Smart Contracts
 cd ../blockchain
 npm install
 
-## 🔄 Development Workflow
-
-1. Create feature branch
-git checkout -b feature/your-feature-name
-
 ## Each service contains its own test suite. Run tests using:
 
-Frontend tests
+#### Frontend tests
 cd client
 npm test
-Backend tests
+#### Backend tests
 cd server
 npm test
-Smart Contract tests
+#### Smart Contract tests
 cd blockchain
 npx hardhat test
